@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
+	--dark-color-a: #fd5b63;
+	--dark-color-b: #ff3333;
+	--light-color: #c2c0c0;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
 }
@@ -130,20 +130,20 @@ a {
 .join-container {
 	max-width: 500px;
 	margin: 80px auto;
-	color: #fff;
+	color: rgb(247, 247, 247);
 }
 
 .join-header {
 	text-align: center;
 	padding: 20px;
 	background: var(--dark-color-a);
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-radius: 12px;
 }
 
 .join-main {
 	padding: 30px 40px;
 	background: var(--dark-color-b);
+	border-radius: 12px;
 }
 
 .join-main p {
